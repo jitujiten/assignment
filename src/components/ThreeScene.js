@@ -5,8 +5,6 @@ import { GUI } from "dat.gui";
 
 const ThreeScene = () => {
   const sceneRef = useRef();
-  const cameraRef = useRef();
-  const rendererRef = useRef();
   const cubeRef = useRef();
   const gltfModels = useRef([]);
 
